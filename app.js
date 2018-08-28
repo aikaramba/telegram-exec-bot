@@ -1,6 +1,6 @@
 /** Lib init */
 const Telegraf = require('telegraf');
-const { exec, spawn, fork } = require('child_process');
+const { fork } = require('child_process');
 const config = require('config');
 
 /** Config init */
